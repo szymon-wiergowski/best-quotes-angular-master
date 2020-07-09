@@ -19,7 +19,7 @@ export const QUOTES: Quotation[] = [
   {
     author: 'Stanisław Lem',
     sentence: 'Bądź dobrej myśli, bo po co być złej.',
-    votes: 3,
+    votes: null,
   },
   {
     author: 'Tove Jansson',
@@ -29,6 +29,6 @@ export const QUOTES: Quotation[] = [
   {
     author: 'Peter Lippert',
     sentence: 'Życia nie można wybrać, ale można z niego coś zrobić.',
-    votes: 0,
+    votes: null,
   },
 ];
