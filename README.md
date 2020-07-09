@@ -1,5 +1,5 @@
 # Aplikacja _"Najlepsze cytaty"_ na potrzeby edukacyjne kursu Udemy. 
-Przykład EventEmitter i Output dekorator.
+Projekcja treści przez ng-content
 
 ## Info:
 - mój kurs na Udemy [https://www.udemy.com/course/angular-kompletny-kurs-od-podstaw/](https://www.udemy.com/course/angular-kompletny-kurs-od-podstaw/?referralCode=58A71AA9B0E86A4D8D88)
@@ -7,7 +7,7 @@ Przykład EventEmitter i Output dekorator.
 - kanał YT: [https://www.youtube.com/ZacznijProgramowac](https://www.youtube.com/ZacznijProgramowac)
 
 ## Otwórz ten przykład przez StackBlitz
-StackBlitz: [https://stackblitz.com/github/ZacznijProgramowac/best-quotes-app/tree/004-Output-and-EventEmitter](https://stackblitz.com/github/ZacznijProgramowac/best-quotes-app/tree/004-Output-and-EventEmitter)
+StackBlitz: [https://stackblitz.com/github/ZacznijProgramowac/best-quotes-app/tree/006-ng-content-projection](https://stackblitz.com/github/ZacznijProgramowac/best-quotes-app/tree/006-ng-content-projection)
 
 
 ## Wymagania projektu

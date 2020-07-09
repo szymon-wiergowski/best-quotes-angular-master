@@ -4,9 +4,12 @@
 
 <div class="container q-container">
   <!--Dodawanie cytatu-->
-  <button class="btn-floating teal add-button" (click)="form.onSwitchForm()">
+  <app-button
+    customClasses="btn-floating teal add-button"
+    (clickButton)="form.onSwitchForm()"
+  >
     <i class="material-icons">add</i>
-  </button>
+  </app-button>
   <app-form #form (newQuotation)="onNewQuotation($event)"></app-form>
   <!-- Koniec dodawania cytatu -->
 
@@ -30,12 +33,18 @@
               <span class="badge black left white-text">
                 {{ quotation.votes }}
               </span>
-              <button class="btn blue mr-5" (click)="addVote(quotation, +1)">
+              <app-button
+                customClasses="btn blue mr-5"
+                (clickButton)="addVote(quotation, +1)"
+              >
                 <i class="material-icons">exposure_plus_1</i>
-              </button>
-              <button class="btn brown" (click)="addVote(quotation, -1)">
+              </app-button>
+              <app-button
+                customClasses="btn brown"
+                (clickButton)="addVote(quotation, -1)"
+              >
                 <i class="material-icons">exposure_neg_1</i>
-              </button>
+              </app-button>
             </div>
           </div>
         </div>
